@@ -21,5 +21,5 @@ RUN apt-get install -y bsdmainutils
 
 #run example:
 #sudo docker run -d -t -v ~/Source:/Source apriorit/build-deviant-coin\
-#  "bash -c cd /Source && chmod +x autogen.sh && ./autogen.sh && ./configure --with-gui=no &&\
+#  "bash -c cd /Source && chmod +x autogen.sh && ./autogen.sh && ./configure &&\
 #  chmod +x ./src/leveldb/build_detect_platform && chmod +x ./share/genbuild.sh && make"
